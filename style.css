@@ -1,12 +1,53 @@
 body{
     padding: 2vw 5vw;  
-    background-color:cornsilk;
+    background-image: url('https://images.pexels.com/photos/221247/pexels-photo-221247.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: whitesmoke;
 }
+
+.wrapper{
+    text-align: center;
+}
+
+#title{
+    color: whitesmoke;
+    font-family: 'Londrina Solid', cursive;
+    font-size: 3vw;
+    text-shadow: 2px 2px 3px gray;
+}
+
+label{
+    font-size: 2vw;
+    font-family: 'Londrina Solid', cursive;
+    text-shadow: 1px 1px 2px gray;
+}
+
 
 textarea {
     width: 50%;
     height:20vh;
     resize:none;
-    justify-content: center;
+    display: inline-block;
+    padding: 2vw;
 }
 
+#subtitle{
+    font-size: 2vw;
+    font-family: 'Londrina Solid', cursive;
+    text-shadow: 1px 1px 2px gray;
+}
+
+ul {
+    list-style-type: none;
+    background-color: white;
+    width: 50%;
+    height: 30vh;
+    display: inline-block;
+    padding:2vw;
+}
+
+li{
+    text-align: left;
+    color: black;
+}
